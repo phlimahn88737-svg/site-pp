@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pedro Henrique — Assistência Técnica em Informática</title>
+<meta name="description" content="Manutenção de computadores em Fortaleza: formatação, limpeza, troca de peças, reparo de placas, instalação de software, montagem e redes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#topo" class="mark" aria-label="Página inicial">
+      <span class="mark-box">PH</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <a class="btn btn-accent header-cta" href="https://wa.me/5585921471403" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="topo">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <h1>Computador travando, lento ou com defeito?<br>Eu resolvo.</h1>
+        <p class="hero-lead">Meu nome é Pedro Henrique. Faço manutenção de computadores em Fortaleza — do diagnóstico na placa até a rede de casa funcionando de novo.</p>
+        <div class="hero-actions">
+          <a class="btn btn-accent" href="https://wa.me/5585921471403" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a class="btn btn-ghost" href="#contato">Ver endereço e contato</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <svg id="boardSvg" viewBox="0 0 480 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="40" y="30" width="400" height="360" rx="6" class="board-outline"/>
+          <path pathLength="1" class="trace" d="M40 90 H160 V150 H260" />
+          <path pathLength="1" class="trace" d="M40 190 H120 V270 H220 V330" />
+          <path pathLength="1" class="trace" d="M440 100 H340 V60" />
+          <path pathLength="1" class="trace" d="M440 220 H360 V170 H300" />
+          <path pathLength="1" class="trace" d="M440 320 H380 V360 H250" />
+          <path pathLength="1" class="trace" d="M160 150 V60" />
+          <path pathLength="1" class="trace" d="M260 150 V270 H180" />
+          <rect x="270" y="150" width="90" height="90" rx="3" class="chip"/>
+          <line x1="285" y1="150" x2="285" y2="130" class="pin"/>
+          <line x1="305" y1="150" x2="305" y2="130" class="pin"/>
+          <line x1="325" y1="150" x2="325" y2="130" class="pin"/>
+          <line x1="345" y1="150" x2="345" y2="130" class="pin"/>
+          <line x1="285" y1="240" x2="285" y2="260" class="pin"/>
+          <line x1="305" y1="240" x2="305" y2="260" class="pin"/>
+          <line x1="325" y1="240" x2="325" y2="260" class="pin"/>
+          <line x1="345" y1="240" x2="345" y2="260" class="pin"/>
+          <circle cx="160" cy="150" r="4" class="node"/>
+          <circle cx="260" cy="150" r="4" class="node"/>
+          <circle cx="220" cy="270" r="4" class="node"/>
+          <circle cx="340" cy="60" r="4" class="node"/>
+          <circle cx="300" cy="170" r="4" class="node"/>
+          <circle cx="250" cy="360" r="4" class="node"/>
+          <circle cx="180" cy="150" r="4" class="node"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="servicos">
+    <div class="wrap">
+      <h2>Serviços</h2>
+      <ul class="service-list">
+        <li>
+          <span class="service-mark"></span>
+          <div>
+            <h3>Formatação</h3>
+            <p>Sistema limpo, sem travamentos e sem os programas que vieram de fábrica atrapalhando.</p>
+          </div>
+        </li>
+        <li>
+          <span class="service-mark"></span>
+          <div>
+            <h3>Limpeza física</h3>
+            <p>Remoção de poeira e troca de pasta térmica — o computador esquenta menos e dura mais.</p>
+          </div>
+        </li>
+        <li>
+          <span class="service-mark"></span>
+          <div>
+            <h3>Troca de peças</h3>
+            <p>HD, SSD, memória, fonte, cooler — diagnóstico correto antes de trocar qualquer coisa.</p>
+          </div>
+        </li>
+        <li>
+          <span class="service-mark"></span>
+          <div>
+            <h3>Reparo de placas</h3>
+            <p>Diagnóstico e solda em placa-mãe e outras placas com defeito.</p>
+          </div>
+        </li>
+        <li>
+          <span class="service-mark"></span>
+          <div>
+            <h3>Instalação de software</h3>
+            <p>Sistema operacional, drivers e os programas que você realmente usa no dia a dia.</p>
+          </div>
+        </li>
+        <li>
+          <span class="service-mark"></span>
+          <div>
+            <h3>Montagem de computadores</h3>
+            <p>Monto o seu computador do zero, peça por peça, com tudo testado antes de entregar.</p>
+          </div>
+        </li>
+        <li>
+          <span class="service-mark"></span>
+          <div>
+            <h3>Redes</h3>
+            <p>Instalação e reparo de rede cabeada e Wi-Fi, em casa ou no escritório.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about" id="sobre">
+    <div class="wrap about-inner">
+      <h2>Sobre</h2>
+      <p>Sou técnico de informática e atendo em Fortaleza cuidando de computadores de quem depende deles todo dia — seja para trabalhar, estudar ou simplesmente não perder as fotos e arquivos guardados. Explico o problema em português claro, sem enrolação, e só troco peça quando é realmente necessário.</p>
+    </div>
+  </section>
+
+  <section class="testimonials" id="depoimentos">
+    <div class="wrap">
+      <h2>O que dizem os clientes</h2>
+      <div class="ticket-grid">
+
+        <article class="ticket">
+          <div class="ticket-top">
+            <span class="ticket-no">OS Nº 0112</span>
+            <span class="ticket-tag">Formatação</span>
+          </div>
+          <p class="ticket-quote">Meu notebook demorava mais de dez minutos pra ligar. Depois que o Pedro formatou e ajeitou tudo, parece que comprei outro. Explicou cada passo antes de mexer.</p>
+          <p class="ticket-author">— Camila Rodrigues, Messejana</p>
+        </article>
+
+        <article class="ticket">
+          <div class="ticket-top">
+            <span class="ticket-no">OS Nº 0134</span>
+            <span class="ticket-tag">Reparo de placa</span>
+          </div>
+          <p class="ticket-quote">Levei meu PC em duas outras assistências e disseram que a placa-mãe tinha morrido. O Pedro identificou o problema certo, fez o reparo e ficou bem mais barato que comprar peça nova.</p>
+          <p class="ticket-author">— Francisco Alan, Parangaba</p>
+        </article>
+
+        <article class="ticket">
+          <div class="ticket-top">
+            <span class="ticket-no">OS Nº 0149</span>
+            <span class="ticket-tag">Redes</span>
+          </div>
+          <p class="ticket-quote">O Wi-Fi não chegava no fundo de casa de jeito nenhum. Ele veio, reorganizou o cabeamento e hoje pego sinal até na área de serviço.</p>
+          <p class="ticket-author">— Vanessa Lima, Cambeba</p>
+        </article>
+
+        <article class="ticket">
+          <div class="ticket-top">
+            <span class="ticket-no">OS Nº 0158</span>
+            <span class="ticket-tag">Montagem</span>
+          </div>
+          <p class="ticket-quote">Pedi pra montar um computador simples pra minha filha estudar e ele montou dentro do orçamento que eu tinha, sem empurrar peça cara. Testou tudo na minha frente antes de ir embora.</p>
+          <p class="ticket-author">— Roberto Sena, Bom Jardim</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contato">
+    <div class="wrap contact-inner">
+      <h2>Contato</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-label">WhatsApp</span>
+          <a href="https://wa.me/5585921471403" target="_blank" rel="noopener">(85) 92147-1403</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">E-mail</span>
+          <a href="mailto:phlimahenrique88737@gmail.com">phlimahenrique88737@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Endereço</span>
+          <span>Rua da Mata, esquina com a árvore, 2</span>
+        </div>
+      </div>
+      <a class="btn btn-accent contact-cta" href="https://wa.me/5585921471403" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Pedro Henrique — Assistência Técnica</span>
+    <span id="year"></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
